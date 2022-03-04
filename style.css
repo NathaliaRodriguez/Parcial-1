@@ -176,8 +176,16 @@ overflow:hidden;
     flex: 1 1 auto;
     justify-content: center;
     align-content: center;
-    animation: mover2 1s ease-in 2s 1 normal both;
+    animation: mover3 1s ease-in 5s 1 normal both;
   }
+  @keyframes mover3 {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+    }
 
 
 .comoLL{
