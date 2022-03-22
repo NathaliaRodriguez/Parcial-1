@@ -8,7 +8,7 @@
 }
 
 body{
-    background: radial-gradient(circle, rgb(207, 255, 255) 0%, rgb(193, 255, 222) 50%,  rgb(255, 239, 220)100%);
+background-color: aliceblue;    
 }
 
 header {
@@ -55,14 +55,14 @@ overflow:hidden;
 
 .Hc{
     position: relative;
-    display: inline-block;
-    text-align: left;
-
+    text-align: center;
+    background-image: url(Imagenes/Hero\ Content.png);
 }
 
 .Hc img{
     width: fit-content;
     height: auto;
+    align-content: center;
 }
 
 .Hc h1{
@@ -102,7 +102,7 @@ h2{
     text-shadow: 0.07em 0.05em 0.1em rgba(51, 51, 51, 0.603);
 }
 .Desc{
-    background-color: rgba(227,184,254, 0.555);
+    background-color: rgba(227, 184, 254, 0.2);
     padding: 20px;
     border-radius: 60px;
 }
@@ -112,8 +112,40 @@ h2{
     color: black;
     text-shadow: 0.07em 0.05em 0.1em rgba(51, 51, 51, 0.603);
 }
+.Desc h4{
+        /* color: #afebff; */
+        color: rgb(195, 86, 195);
+        font-weight: 700;
+        font-size: 50px;
+        text-shadow: 0.07em 0.05em 0.1em rgba(51, 51, 51, 0.603);
+}
+.Desc h5{
+    /* color: #afebff; */
+    color: rgb(69, 162, 190);
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 0.07em 0.05em 0.1em rgba(51, 51, 51, 0.603);
+}
+.Desc h6{
+    /* color: #afebff; */
+    color: rgb(151, 76, 172);
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 0.07em 0.05em 0.1em rgba(51, 51, 51, 0.603);
+}
+
+.left{
+    position: relative;
+    left: 350px;
+    text-align: left;
+}
+.right{
+    position: relative;
+    right: 350px;
+    text-align: right;
+}
 .Prog{
-    background-color: rgba(255,180,228, 0.555);
+    background-color: rgba(255,180,228, 0.2);
     padding: 20px;
     border-radius: 60px;
  }
@@ -123,17 +155,17 @@ h2{
     height: auto;
 }
 .ListS{
-    background-color: rgba(218, 255, 118, 0.555);
+    background-color: rgba(255,238,173, 0.2);
     padding: 20px;
     border-radius: 60px;
  }
 .Form{
-    background-color: rgba(138, 198, 255, 0.555);
+    background-color: rgba(138, 198, 255, 0.2);
     padding: 10px;
     border-radius: 60px;
 }
 .Price{
-    background-color: rgba(250,213,191, 0.555);
+    background-color: rgba(250,213,191, 0.2);
     padding: 20px;
     border-radius: 60px;
 }
@@ -233,7 +265,7 @@ p{
 }
 
 form{
-	width:100%;
+	width:300px;
 	padding:6px;
 	border-radius:10px;
 	margin:auto;
@@ -255,14 +287,14 @@ form input[type="number"],select{
 	padding:8px 10px;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
-	background-color:#d9f1ed;
+	background-color:#ffffff;
 	margin:10px 5px;
 	display:inline-block;
 }
 
 form input[type="submit"]{
-	width:50%;
-	padding:8px 16px;
+	width:180px;
+	padding:8px 10px;
 	margin-top:20px;
 	border:1px whitesmoke;
 	border-radius:5px;
